@@ -1,0 +1,172 @@
+.container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 600ms;
+    background: rgba(20, 20, 20, 0.836);
+    /*solucionar el problema de rendimiento con el blur*/
+    /*backdrop-filter: blur( 1 px );*/
+}
+
+#btn-modal:checked ~ .container{
+    opacity: 1;
+	visibility: visible;
+} 
+
+#btn-modal{
+    display: none;
+}
+
+.popup{
+    background: #202020;
+    width: 85%;
+    height: 90%;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.img_vehiculo{
+    width: 100%;
+    height: 75%;
+    background-image: url("../img/nuevos/edge/edge.png");
+    background-position: bottom;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.g-container_Modelo{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.g-container_Modelo2{
+    justify-items: center;
+    align-items: center;  
+    background: #2A3D4D;
+    margin-left: 0%;
+}
+
+.grid_detalle{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.grid_detalle2{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#subtitulo2{
+    text-align: start;
+    color: #F8F8F8;
+    margin: 0 60px 0 10px;
+}
+
+#descripcion_vehiculo{
+    font-size: 19px;
+    color: #F8F8F8;
+    margin: 0 60px 0 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#seguridad{
+    width: 90%;
+    height: auto;   
+}
+
+.colores{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#colores_vehiculo{
+    font-size: 26px;
+    color: #F8F8F8;
+    margin: 0 60px 0 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.grid_detalle4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.g-container_Precio{
+    display: grid;
+    background: #2A3D4D;
+}
+
+#precio{
+    text-align: start;
+    color: #F8F8F8;
+    margin: 10px;
+}
+
+#min_titulo_nuevo{
+    text-align: center;
+    color: #F8F8F8;
+    font-size: 25px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+#centrar_texto{
+    color: #F8F8F8;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.imgs_vehiculo{
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.imgs_vehiculo img:first-child{
+    grid-row: 1 / 3;
+}
+
+#vehiculo_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.close_popup{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 6%;
+    left: 8%;
+    padding: 2px;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffffd3;
+    font-size: 28px;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.412);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur( 2px );
+    transition: 600ms;
+}
+
+.close_popup:hover{
+    background: rgba(255, 255, 255, 0.678);
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+    backdrop-filter: blur( 2px );
+    color: #000000b4;
+}
