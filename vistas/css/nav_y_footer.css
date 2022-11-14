@@ -1,0 +1,115 @@
+body{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+nav{
+    background: #2A3D4D;
+    position: sticky;
+    top: 0px;
+}
+
+.g-container_nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.g-container_nav2{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.g-container_nav2:nth-child(1){
+    justify-self: start;
+    margin-left: 15px;
+}
+
+.g-container_nav2:nth-child(3){
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: end;
+    margin-right: 15px;
+}
+
+#nf_icono{
+    height: auto;
+    width: 34px;
+    cursor: pointer;
+}
+
+#logo1{
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+}   
+
+#buttonn{
+    display: block;
+}
+
+#login{
+    width: 105px;
+    height: 35px;
+    border-radius: 40px;
+    border: 10px;
+    margin: 3px, 3px, 3px, 50px ;
+    background-color: #F8F8F8;
+}
+
+#login:hover{
+    width: 105px;
+    height: 35px;
+    border-radius: 40px;
+    border: 10px;
+    margin: 3px, 3px, 3px, 50px;
+    color: #F8F8F8;
+    background-color: #202020;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-delay: 0.5;
+}
+
+
+footer{
+    background-color:#2A3D4D;
+}
+
+#logo2{
+    width: 90%;
+    height: auto; 
+    text-align: center;
+}
+
+#centrar_footer{
+    text-align: center;
+    color: #F8F8F8;
+}
+
+#sede{
+    color: #F8F8F8;
+}
+
+.g-container_footer{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.g-container_footer2{
+    display: grid;
+    
+    justify-items: center;
+    align-items: center;
+}
+
+.g-container_footer2:nth-child(1){
+    border-right: 3.2px solid #F8F8F8;
+}
+
+.g-container_footer2:nth-child(3){
+    border-left: 3.2px solid #F8F8F8;
+}
+
+#autor{
+    width: 15px;
+    height: auto;
+}

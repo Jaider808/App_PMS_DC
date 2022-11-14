@@ -1,0 +1,102 @@
+
+.usuario{
+    margin: 10px;
+}
+.carshopping{
+    margin-right: 20px;
+}
+.nav_vertical{
+    position:static;
+    width:250px;
+    height: 800px;
+    background-color: #2b2b2b;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 20px;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+    font-size: 20px;
+
+}
+li a:hover{
+    border-left: 5px solid white;
+}    
+
+.form{
+    width: 880px;
+    background-color:#2d5474;
+    opacity: 0.8;
+    padding: 30px;
+    margin: auto;
+    margin-left: 150px;
+    border-radius: 4px;
+    color: white;
+    z-index: 1;
+}
+.form h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+button.btn-primary{
+    width: 25%;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+button.btn-primary:hover{
+    width: 25%;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color:#1b3244;
+    color: white;
+}
+
+.form-control{
+    width: 90%;
+    background: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-color: white;
+    color: white;
+}
+
+.mb-31{
+    display: block;
+}
+
+.datos{
+    width: 800px;
+}
+.vender{
+    width: 600px;
+}
+label {
+    display: block;
+    margin-left: 30px;
+}
+
+.genero{
+    margin-left: 20px; 
+}
+
+nav{
+    z-index: 100;
+}

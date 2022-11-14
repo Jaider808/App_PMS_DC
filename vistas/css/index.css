@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #202020;
+    font-family: 'Hammersmith One', sans-serif;
+    overflow-y: auto;
+}
+
+#Lugar{
+    height: auto;
+    width: 100%;
+}
+
+h1{
+    color: #F8F8F8;
+}
+
+#Personas{
+    height: auto;
+    width: 100%;
+}
+
+#min_titulo{
+    text-align: center;
+    color: #F8F8F8;
+}
+
+.g-container_nuevos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 10%;
+}
+
+.g-container_nuevos2{
+    display: grid;
+    background: #2A3D4D;
+    justify-items: center;
+    align-items: center;  
+}
+
+.g-container_nuevos2:first-child{
+    justify-self: start;
+}
+
+.g-container_usados{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10%;
+}
+
+.g-container_usados2{
+    display: grid;
+    background: #2A3D4D;
+    justify-items: center;
+    align-items: center;  
+}
+
+#centrar_texto{
+    color: #F8F8F8;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#v_boton{
+    font-family: 'Rajdhani', sans-serif;
+    width: 170px;
+    height: 50px;
+    border-radius: 40px;
+    border: 10px;
+    margin: 3px, 3px, 3px, 50px ;
+    background-color: #F8F8F8;
+}
+#v_boton:hover{
+    font-family: 'Rajdhani', sans-serif;
+    color: #F8F8F8;
+    width: 170px;
+    height: 50px;
+    border-radius: 40px;
+    border: 10px;
+    margin: 3px, 3px, 3px, 50px ;
+    background-color: #202020;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-delay: 0.5;
+}

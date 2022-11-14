@@ -1,0 +1,89 @@
+body{
+    background-image:url("../img/login_sign_up.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Hammersmith One', sans-serif;
+    overflow-y: auto; 
+}
+
+.form{
+    width: 480px;
+    background-color:#2d5474;
+    opacity: 0.8;
+    padding: 30px;
+    margin: auto;
+    margin-left: 800px;
+    border-radius: 4px;
+    color: white;
+}
+.form h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.form-control{
+    width: 90%;
+    background: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border-color: white;
+    color: white;
+}
+
+.form .mb-31{
+    margin-top: 40px;
+}
+
+
+button.btn-primary{
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+button.btn-primary:hover{
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color:#1b3244;
+    color: white;
+}
+
+ .form a {
+    width: 50%;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    margin-left: 180px;
+    margin-top: 30px;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.form a:hover{
+    text-decoration: underline;
+}
+
+
+
+
