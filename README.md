@@ -1,4 +1,4 @@
-<h3>VISTA Y VISTA2</h3>
+<h3>VISTA Y VISTA 2</h3>
 <h1>INICIO</h1>
 <img src="Capturas de pantalla/Captura de pantalla 2022-11-14 020454.png">
 <img src="Capturas de pantalla/Captura de pantalla 2022-11-14 020523.png">
